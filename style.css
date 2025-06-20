@@ -21,33 +21,107 @@
       align-items: center;
       text-align: center;
       padding: 2rem;
+      margin-bottom: 100px;
+    }
+
+    .hero:hover{
+      background: url('img/18.jpg') no-repeat center center/cover;
+      
+    }
+
+    .hero-content:hover{
+      background-color: rgb(25, 52, 39);
+      opacity: 0.8;
+      border-radius: 0 0 30px 30px;
     }
 
     .about-section{
-      background: url('img/7.jpg') no-repeat center center/cover;
-      height: 100vh;
+      background-color: rgb(25, 52, 39);
+      height: 90vh;
       color: rgb(255, 255, 255);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
       padding: 2rem;
-      margin: 20px 20px;
+      margin: 100px;
       border-radius: 0 150px;
     }
 
-    .destinations-section{
-      background: url('img/13.jpg') no-repeat center center/cover;
-      height: 100vh;
-      color: rgb(255, 255, 255);
+    .aboutt{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2rem;
-      font-size: 27px;
+      float: left;
+      margin-right: 100px ;
     }
+
+    .aboutt img{
+      width: 100px; height: 100px;
+      border-radius: 30px;
+      margin: 30px 0;
+    }
+    .pp{
+      width: 400px; height: 400px; border-radius: 0 150px; border-left-color: #fff; border-left-style: solid;
+    }
+
+    .containe{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .destinations-section{
+      background-color: #f0e4e4;
+      height: 100vh;
+      color: rgb(63, 45, 45);
+      padding: 2rem;
+      display: flex;
+      font-size: 16px;
+      margin: 100px;
+    }
+
+    .contain{
+      max-width: 1100px;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+
+    .dd{
+      width: 230px ;
+      height: 200px;
+      border-radius: 20px 0 0 0 ;
+      padding-top: 2px;
+    }
+
+    .cc{
+      background-color: rgb(173, 186, 199);
+      border-radius: 20px 0;
+      border-style: solid ;
+      border-left: #e67e22;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 240px;
+      box-shadow: aliceblue;
+      margin-right: 20px;
+    }
+    .tour{
+      display: flex;
+      text-decoration: none;
+    }
+
+    .destinations-section:hover{
+      background: url('img/19.jpg') no-repeat center center/cover;
+      }
+
+    .destinations-section::after{
+      background: url('img/20.jpg') no-repeat center center/cover;
+     }
 
     .navbar {
       display: flex;
@@ -74,6 +148,10 @@
       gap: 1rem;
     }
 
+    .nav-links a:hover{
+      color: black;
+    }
+
     .nav-links a {
       color: white;
       text-decoration: none;
@@ -93,7 +171,7 @@
     }
 
     .btn-primary:hover{
-      background-color: rgb(25, 52, 39);
+      background-color: rgb(240, 4, 4);
       color: #fff;
     }
 
@@ -104,6 +182,21 @@
     .container {
       max-width: 1100px;
       margin: 0 auto;
+    }
+
+    .mission-section{
+      margin: 100px;
+    }
+    .contai{
+      max-width: 1100px;
+      margin: 0 auto;
+      justify-content: center;
+      background-color: #ccc;
+      align-items: center;
+      justify-items: center;
+      padding: 30px;
+      color: #000000;
+      border-radius: 0 0 20px 0;
     }
 
     .container img{
@@ -124,6 +217,25 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 2rem;
+    }
+
+    .experiences-section{
+      margin: 100px 20px;
+      }
+
+    .card{
+      color: #000000;
+    }
+    .card p{
+      color: transparent;
+    }
+
+    .card p:hover{
+      color: #ccc;
+      background-color: rgb(25, 52, 39);
+      opacity: 0.7;
+      border-radius: 0 20px;
+      text-align: center;
     }
 
     .card1 {
@@ -154,10 +266,38 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
+    .card1:hover{
+      background: url('img/14.jpg') no-repeat center center/cover;
+      border-radius: 0 30px;
+    }
+
+    .card2:hover{
+      background: url('img/15.webp') no-repeat center center/cover;
+      border-radius: 0 30px;
+    }
+
+    .card3:hover{
+      background: url('img/16.jpg') no-repeat center center/cover;
+      border-radius: 0 30px;
+    }
+
+    .card4:hover{
+      background: url('img/17.jpg') no-repeat center center/cover;
+      border-radius: 0 30px;
+    }
+
     form {
       display: flex;
       flex-direction: column;
       gap: 1rem;
+    }
+
+    .contact-section{
+      background: url('img/21.jpg') no-repeat center center/cover;
+      }
+
+    .contact-section:hover{
+      background: url('img/lion.jpg') no-repeat center center/cover;
     }
 
     input, textarea {
@@ -178,6 +318,27 @@
       padding: 2rem;
     }
 
+    .social-media{
+      width: auto;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-img{
+      width: 20px;
+      height: 20px;
+      margin: 20px;
+    }
+
+    .social-img:hover{
+      width: 30px;
+      height: 30px;
+      background-color: rgb(25, 52, 39);
+      opacity: 0.8;
+      border-radius: 2rem;
+    }
+
     @media (max-width: 768px) {
       .nav-links {
         flex-direction: column;
@@ -185,5 +346,60 @@
       }
       .experience-cards {
         grid-template-columns: 1fr;
+      }
+
+      .containe{
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .containe img{
+        width: auto;
+        height: 80px;
+        border-radius: 30px;
+      }
+
+      .about-section{
+        margin: 20px;
+      }
+      .aboutt{
+        margin: 20px;
+        justify-content: space-between;
+        align-items: self-start;
+      }
+
+      .destinations-section{
+        margin: 20px 0;
+        align-items: normal;
+        border-radius: 20px 0;
+      }
+
+      .tour{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+      }
+
+      .cc{
+        align-items: normal;
+        justify-content: left;
+        align-items: normal;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 190px;
+        height: 250px;
+      }
+
+      .dd{
+        width: 185px;
+        height: 130px;
+        margin-top: 2px;
+        border-radius: 20px 0 0 0;
+      }
+
+      .mission-section{
+        margin: 20px;
       }
     }
